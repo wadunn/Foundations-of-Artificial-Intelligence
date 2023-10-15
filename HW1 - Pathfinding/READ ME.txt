@@ -1,0 +1,17 @@
+Wyatt Dunn
+CSCI561 Foundations of Artificial Intelligence
+HW1 Pathfinding
+
+Running homework.java will find the fastest path through a matrix of height values.  The path taken is limited by a few factors which are outlined in the spec.  Negative numbers in the matrix represent trees and there is a limit to how far 'uphill' you can navigate depending on the preset stamina level. Tree navigation rules are dependent on the method of pathfinding used: BFS (Breadth first search), UCS (uniform cost search) or A* search.  See Spec sheet for detailed explanation of each search type.  
+
+input.txt: 
+1st line: instruction of which algorithm to use
+2nd line: Two integers denoting the dimensions of the matrix (Width, Height)
+3rd line: Two integers denote the starting coordinates
+4th line: This number is the stamina value
+5th line: This is the number of lodges or destination points on the matrix. 
+Next N Lines: coordinates for each of the lodges(destinations). The number of coordinates is found in line 5
+Remaining lines: show the height value for each poisition in the matrix
+
+homework.java:
+Running homework.java will take the input file and determine the least cost path to any of the lodge coordinates given from the determined starting point using the search method specified in line 1.  The results of the desired path will be published in output.txt 
