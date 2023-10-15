@@ -1,0 +1,19 @@
+Wyatt Dunn
+CSCI561 Foundations of Artificial Intelligence: HW2
+Pente - Board Game
+
+Rules of game are outlined in HW Spec document. In short, first player to reach 5 pieces in a row or have 5 captures wins.
+
+input.txt: 
+The input file format is as follow
+Line 1: Shows whose turn it is, black or white
+Line 2: Shows how many seconds left the player whose turn it is has available out of 100 seconds total.  If this time hits zero the player loses.  Each player starts with 100 seconds each. 
+Line 3: shows how many captures each player has. 
+
+Remaining lines: 
+Graphical representation of the game board. the dots represent empty positions while b is black piece and w is a white piece. 
+
+Running homework.java will read the input and determine the best possible move for the player whose turn it is. The desired move will appear in output.txt
+
+The TAs for this course ran our code against other classmate's code using a facilitating program. Game's were played automatically played to completion as part of a competition in the class.   My code placed me in the top 20 of a class size of approximately 250 students. 
+
