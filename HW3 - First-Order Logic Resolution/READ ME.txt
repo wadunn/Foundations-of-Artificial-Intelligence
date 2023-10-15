@@ -1,0 +1,10 @@
+Wyatt Dunn
+CSCI561 Foundations of Artificial Intelligence: HW3
+
+input.txt:
+Line 1 of this file includes a statement that homework.java needs to determine whether is true or false.  
+Line 2 is an integer which signifies how many remaining lines input.txt includes
+Remaining lines are statements that are part of the knowledge base and are known to be correct.  We use these to deduct our final verdict on whether line 1 is true or false
+
+Running homework.java will read the file 'input.txt' and perform first order logic resolution on the statements to determine if the statement in the first line of input.txt is true or false.
+results will populate in output.txt
